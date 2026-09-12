@@ -1,0 +1,48 @@
+# Ti Security Engine — Third-Party Notices
+### Is my use commercial?
+
+| Scenario | Allowed |
+|---|---|
+| Personal machine, personal files | Yes |
+| Academic research, thesis, paper (with attribution) | Yes |
+| Malware analysis as a hobby / CTF | Yes |
+| Internal IT scanning company machines | Yes |
+| Paid consulting or incident response engagements | No |
+| Bundled into any product, paid or ad-supported | No |
+
+When in doubt, ask.
+This software uses the following third-party components. Each is distributed under its own license, reproduced or referenced below.
+
+---
+
+## numpy
+
+- **License**: BSD 3-Clause
+- **URL**: https://github.com/numpy/numpy/blob/main/LICENSE.txt
+
+---
+
+## onnxruntime
+
+- **License**: MIT
+- **URL**: https://github.com/microsoft/onnxruntime/blob/main/LICENSE
+
+---
+
+## LIEF
+
+- **License**: Apache License 2.0
+- **URL**: https://github.com/lief-project/LIEF/blob/master/LICENSE
+
+---
+
+## 7-Zip
+
+The scanner invokes the external program `7z` (7-Zip) as a separate process for archive extraction.
+
+7-Zip is **not** distributed with this software; users must install it separately.
+
+- **License**: GNU LGPL with additional restrictions on the unRAR component
+- **URL**: https://www.7-zip.org/license.txt
+
+---
