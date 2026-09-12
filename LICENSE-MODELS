@@ -1,0 +1,133 @@
+---
+
+# Ti Security Engine Asset License
+
+**Version 1.0**
+
+**Copyright (c) 2026 Hashcake**
+
+---
+
+## 1. Definitions
+
+**"Licensor"** means Hashcake.
+
+**"Engine Assets"** means the model weights and associated data files distributed by the Licensor as part of or alongside the Software, including but not limited to:
+
+- `tisave.onnx`
+- `TisaveAst.onnx`
+- `TisaveFML.onnx`
+- `TisaveTEX.onnx`
+- `vocab.json`
+
+and any derivative thereof, including fine-tuned, quantized, converted, pruned, or distilled variants, and any file from which the numerical content of the above can be substantially recovered.
+
+**"Software"** means the source code distributed by the Licensor under the PolyForm Noncommercial License 1.0.0 in the repository named below.
+
+**"You"** means the individual or entity exercising rights under this license.
+
+This license applies to the Engine Assets regardless of the channel through which they were obtained, including but not limited to the Licensor's GitHub repositories and releases, 123 Cloud, OneDrive, or any redistribution by a third party.
+
+---
+
+## 2. Grant
+
+Subject to the conditions below, the Licensor grants You a worldwide, royalty-free, non-exclusive, non-transferable license to use, copy, and redistribute the Engine Assets.
+
+---
+
+## 3. Noncommercial Use Only
+
+You may use the Engine Assets only for noncommercial purposes.
+
+Noncommercial purposes include:
+
+- personal use for research, experiment, and testing;
+- personal study;
+- hobby projects and amateur pursuits;
+- use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution.
+
+Any use that is primarily intended for or directed toward commercial advantage or monetary compensation is not permitted. This includes, without limitation:
+
+- incorporating the Engine Assets into a paid product or service;
+- incorporating the Engine Assets into a free product or service that generates revenue through advertising, data collection, or upselling;
+- using them in the course of paid consulting or incident response work.
+
+---
+
+## 4. Attribution
+
+Any software, service, publication, or other work that uses, incorporates, links against, or is derived from the Engine Assets must display the following notice in a location reasonably visible to its users — such as an "About" dialog, a README, a documentation page, or a paper's acknowledgements section:
+
+> Powered by Ti Security Engine  
+> https://github.com/&lt;owner&gt;/&lt;repo&gt;  
+> Copyright (c) 2026 Hashcake.  
+> Used under the Ti Security Engine Asset License.
+
+The notice must not be removed, obscured, or altered.
+
+Attribution in source code comments alone does not satisfy this requirement.
+
+---
+
+## 5. Restrictions
+
+You may not:
+
+**(a)** use the Engine Assets, in whole or in part, as input to train, fine-tune, distill, or otherwise derive any machine learning model, except where such derivative is itself distributed under this license and satisfies Section 4;
+
+**(b)** reverse engineer, decompile, or otherwise attempt to extract, reconstruct, or recover the training data, training procedure, or model architecture beyond what is directly readable from the distributed files;
+
+**(c)** remove, alter, or circumvent any identifying marker, watermark, or fingerprint embedded in the Engine Assets;
+
+**(d)** redistribute the Engine Assets without a copy of this license.
+
+---
+
+## 6. No Corresponding Source Obligation
+
+The Engine Assets are distributed as binary weights and data files. The Licensor does not provide, and is under no obligation to provide, training scripts, training data, hyperparameters, or any other material used to produce the Engine Assets.
+
+Nothing in this license, or in any license applying to the Software, shall be construed to create such an obligation.
+
+---
+
+## 7. Termination
+
+This license terminates automatically if You breach any of its terms.
+
+Upon termination You must cease all use of the Engine Assets and destroy all copies in Your possession or control.
+
+If You come into full compliance with this license and take practical steps to correct past violations within 32 days of receiving written notice of a violation, Your license continues. Otherwise it ends immediately.
+
+The Licensor may reinstate this license at their sole discretion upon written notice.
+
+---
+
+## 8. No Warranty
+
+THE ENGINE ASSETS ARE PROVIDED "AS IS", WITHOUT WARRANTY OR CONDITION OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NONINFRINGEMENT.
+
+The Engine Assets produce probabilistic classifications. They will produce both false positives and false negatives. They are not a substitute for a certified security product and must not be relied upon as the sole means of detecting malicious software.
+
+---
+
+## 9. Limitation of Liability
+
+AS FAR AS THE LAW ALLOWS, IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING OUT OF THIS LICENSE OR THE USE OR NATURE OF THE ENGINE ASSETS.
+
+THIS INCLUDES, WITHOUT LIMITATION, DAMAGE OR LOSS RESULTING FROM A FILE BEING MISCLASSIFIED AS MALICIOUS OR BENIGN, OR FROM ANY ACTION TAKEN OR NOT TAKEN ON THE BASIS OF SUCH A CLASSIFICATION.
+
+---
+
+## 10. Commercial Licensing
+
+For commercial use, contact the Licensor at **1828529634@qq.com**.
+
+---
+
+## 11. Severability
+
+If any provision of this license is held unenforceable, that provision shall be modified to the minimum extent necessary to make it enforceable, and the remaining provisions shall remain in full effect.
+
+---
